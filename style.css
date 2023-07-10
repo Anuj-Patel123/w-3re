@@ -1,0 +1,54 @@
+body {
+    background: url('blue-pattern.jpg')
+}
+
+#score {
+    margin-left: 10px;
+    font-size:30;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#timer{
+    float:right;
+    font-size:30;
+    margin-right: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sketch {
+    font-size:35;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(255, 178, 35)
+}
+ #label {
+    font-size:20;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(0, 0, 0)
+ }
+ #confidence {
+    font-size:20;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(0, 0, 0)
+ }
+ #show_sketch{
+    float:right;
+    margin-right:20px;
+ }
+
+ h1 {
+    background-color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:sticky;
+ }
+ canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: no;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes no {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
